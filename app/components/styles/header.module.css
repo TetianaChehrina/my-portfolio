@@ -1,0 +1,28 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  z-index: 10000;
+  padding: 40px 0;
+}
+
+.header_csontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .header_container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    padding: 0;
+  }
+}

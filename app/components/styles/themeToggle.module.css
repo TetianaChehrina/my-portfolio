@@ -1,0 +1,55 @@
+.toggle_button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+  height: 44px;
+  border-radius: 22px;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.dark {
+  background: #000;
+  color: white;
+  border-color: #333;
+}
+
+.light {
+  background: #fff;
+  color: black;
+  border-color: #ccc;
+}
+
+.icon_container {
+  width: 36px;
+  height: 36px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.icon {
+  color: black;
+}
+
+.dark .icon_container {
+  transform: translateX(65px);
+}
+
+.light .icon_container {
+  transform: translateX(0px);
+}
+
+.text {
+  flex: 1;
+  text-align: center;
+}

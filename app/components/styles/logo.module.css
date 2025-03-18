@@ -1,0 +1,7 @@
+.logo {
+  font-size: 28px;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgb(79, 203, 245);
+  transition: color 0.3s ease-in-out;
+}

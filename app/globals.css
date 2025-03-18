@@ -1,0 +1,49 @@
+@import "modern-normalize";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-font: "Inter", sans-serif;
+  --background-color: #000000;
+  --text-color: #fff;
+  color-scheme: light dark;
+}
+
+.light {
+  --bg-color: #dbd6d6;
+  --text-color: black;
+}
+
+html,
+body {
+  max-width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--gradient);
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  padding-top: 80px;
+}
+
+a {
+  text-decoration: none;
+}
