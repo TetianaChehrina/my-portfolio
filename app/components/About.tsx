@@ -23,9 +23,14 @@ const About = () => {
             <h2 className={styles.title}>Hi, </h2>
             <h1 className={styles.heading}>I'm Tetiana Chehrina </h1>
             <p className={styles.description}>
-              Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour.
+              I'm a web developer who enjoys building interactive and responsive
+              web applications. <br />I have hands-on experience with HTML, CSS,
+              JavaScript, TypeScript, React, Next, Redux, RESTful APIs, Node.js,
+              Express, MongoDB, Cloudinary, Postman and Git. Collaboration is
+              something I value, and I'm always excited to work with others to
+              bring creative ideas to life.
             </p>
+
             <button className={styles.contact_button}>Contact Me</button>
           </div>
         </div>

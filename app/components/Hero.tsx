@@ -1,9 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import { FaGithub, FaTelegram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaTelegramPlane } from "react-icons/fa";
 import Container from "./Container";
 import styles from "./styles/hero.module.css";
+import { FaLinkedinIn } from "react-icons/fa6";
 
 const Hero = () => {
   return (
@@ -45,18 +46,18 @@ const Hero = () => {
                 target="_blank"
                 className={styles.icon_link}
               >
-                <FaLinkedin className={styles.icon} />
+                <FaLinkedinIn className={styles.icon} />
               </a>
               <a
                 href="https://t.me/Tetiana_Chehrina"
                 target="_blank"
                 className={styles.icon_link}
               >
-                <FaTelegram className={styles.icon} />
+                <FaTelegramPlane className={styles.icon} />
               </a>
             </div>
 
-            <a href="#about" className={styles.more_btn}>
+            <a href="#about" className={styles.more}>
               More About Me
             </a>
           </div>
