@@ -1,10 +1,11 @@
-.list {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+.project_section {
+  padding: 80px 0;
+  background: var(--background-color);
+  color: white;
 }
 
-.card {
-  height: 500px;
-  border: 1px solid rgb(246, 240, 240);
+.title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
 }

@@ -1,0 +1,137 @@
+import { ProjectType } from "../types/projects";
+
+export const projects: ProjectType[] = [
+  {
+    id: 1,
+    image: "/assets/projects/LanguageTutor.png",
+    name: "Language Tutor",
+    webSite: "https://language-tutor-five.vercel.app/",
+    projectRepository: "https://github.com/TetianaChehrina/language-tutor",
+    technologies: {
+      frontend: {
+        core: [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "Redux Toolkit",
+          "Redux Persist",
+        ],
+        libraries: [
+          "React Hook Form",
+          "Flatpickr",
+          "React Hot Toast",
+          "React Icons",
+        ],
+        tools: ["Vite", "Responsive Design"],
+      },
+      backend: {
+        core: ["Node.js", "Express", "MongoDB", "Mongoose"],
+        security: ["bcrypt", "jsonwebtoken", "cookie-parser"],
+        cloud: ["Cloudinary", "Multer"],
+        utilities: ["cors", "dotenv", "cross-env", "http-errors", "nodemon"],
+      },
+    },
+  },
+  {
+    id: 2,
+    image: "/assets/projects/PhoneBookApp.png",
+    name: "Phone book App",
+    webSite: "https://phone-book-app-frontend.vercel.app/",
+    description:
+      "A Fullstack application with user authentication, contact management, and a responsive UI.",
+    projectRepository: {
+      frontend: "https://github.com/TetianaChehrina/phone-book-app-frontend",
+      backend: "https://github.com/TetianaChehrina/phone-book-app-backend",
+    },
+    technologies: {
+      frontend: {
+        core: ["HTML", "CSS", "JavaScript", "React"],
+        libraries: [
+          "React Icons",
+
+          "React Helmet",
+          "React Hot Toast",
+          "React Loader Spinner",
+          "Redux Toolkit",
+          "Redux Persist",
+          "React Router Dom",
+          "React Toastify",
+          "Formik",
+          "Yup",
+        ],
+        tools: ["Vite"],
+      },
+      backend: {
+        core: ["Node.js", "Express", "MongoDB"],
+        libraries: [
+          "bcryptjs",
+          "cloudinary",
+          "cors",
+          "dotenv",
+          "express",
+          "handlebars",
+          "http-errors",
+          "joi",
+          "jsonwebtoken",
+          "mongoose",
+          "multer",
+          "nodemailer",
+        ],
+        tools: ["Nodemon"],
+      },
+    },
+  },
+  {
+    id: 3,
+    image: "/assets/projects/BlogMotoWay.png",
+    name: "Portfolio Website",
+    webSite: "https://blog-moto-way.vercel.app/",
+    projectRepository: "https://github.com/TetianaChehrina/blog-moto-way",
+    description:
+      "A Fullstack blog platform with user authentication, post management,filter content by categories, and a responsive UI.",
+    technologies: {
+      frontend: {
+        core: ["HTML", "CSS", "JavaScript", "React"],
+        libraries: [
+          "React Icons",
+          "React Helmet",
+          "React Hot Toast",
+          "React Loader Spinner",
+          "Redux Toolkit",
+          "Redux Persist",
+          "React Router Dom",
+          "React Toastify",
+          "Formik",
+          "Yup",
+          "@emotion/react",
+          "@emotion/styled",
+          "@mui/icons-material",
+          "@mui/material",
+          "axios",
+          "react-hook-form",
+          "react-spinners",
+        ],
+        tools: ["Vite", "ESLint", "Prettier"],
+      },
+      backend: {
+        core: ["Node.js", "Express", "MongoDB"],
+        libraries: [
+          "bcryptjs",
+          "cloudinary",
+          "cors",
+          "dotenv",
+          "express",
+          "handlebars",
+          "http-errors",
+          "joi",
+          "jsonwebtoken",
+          "mongoose",
+          "multer",
+          "nodemailer",
+        ],
+        tools: ["Nodemon", "ESLint"],
+      },
+    },
+  },
+];
