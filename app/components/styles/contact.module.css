@@ -1,0 +1,22 @@
+.contact_section {
+  padding: 100px 0px;
+  text-align: center;
+  display: flex;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+.title span {
+  color: #00eaff;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 36px;
+  }
+}

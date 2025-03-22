@@ -1,4 +1,5 @@
 import { ProjectType } from "../types/projects";
+import { Technology } from "../types/technologies";
 
 export const projects: ProjectType[] = [
   {
@@ -134,4 +135,28 @@ export const projects: ProjectType[] = [
       },
     },
   },
+];
+
+export const technologies: Technology[] = [
+  { name: "HTML5", icon: "/assets/technologies/HTML5.png" },
+  { name: "CSS3", icon: "/assets/technologies/CSS3.png" },
+  { name: "JavaScript", icon: "/assets/technologies/JavaScript.png" },
+  { name: "TypeScript", icon: "/assets/technologies/TypeScript.png" },
+  { name: "React", icon: "/assets/technologies/React.png" },
+  { name: "Redux", icon: "/assets/technologies/Redux.png" },
+  { name: "Next.js", icon: "/assets/technologies/next.jpg" },
+  { name: "Node.js", icon: "/assets/technologies/Node.js.png" },
+  { name: "Express", icon: "/assets/technologies/Express.png" },
+  { name: "Express", icon: "/assets/technologies/expressjs.png" },
+  { name: "MongoDB", icon: "/assets/technologies/MongoDB.png" },
+  { name: "Postman", icon: "/assets/technologies/Postman.png" },
+  { name: "Git", icon: "/assets/technologies/Git.png" },
+  { name: "Swagger", icon: "/assets/technologies/Swagger.png" },
+  { name: "Figma", icon: "/assets/technologies/Figma.png" },
+  { name: "Material UI", icon: "/assets/technologies/Material UI.png" },
+  {
+    name: "Visual Studio Code (VS Code)",
+    icon: "/assets/technologies/Visual Studio Code (VS Code).png",
+  },
+  { name: "Vite.js", icon: "/assets/technologies/Vite.js.png" },
 ];

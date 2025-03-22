@@ -2,9 +2,9 @@
 
 import Image from "next/image";
 import { FaGithub, FaTelegramPlane } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa6";
 import Container from "./Container";
 import styles from "./styles/hero.module.css";
-import { FaLinkedinIn } from "react-icons/fa6";
 
 const Hero = () => {
   return (
@@ -26,7 +26,7 @@ const Hero = () => {
 
           <div className={styles.text_content}>
             <h1 className={styles.hero_title}>
-              Hi, I'm Tetiana <span className={styles.name}>Tetiana</span>
+              Hi, I'm Tetiana <span className={styles.name}>Chehrina</span>
             </h1>
             <p className={styles.hero_text}>
               a Web Developer with experience in modern web technologies,
@@ -57,7 +57,7 @@ const Hero = () => {
               </a>
             </div>
 
-            <a href="#about" className={styles.more}>
+            <a href="#about" className={styles.more} data-aos="zoom-in">
               More About Me
             </a>
           </div>

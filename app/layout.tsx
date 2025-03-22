@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 
 import Providers from "./providers";
 import "./globals.css";
+import AOSProvider from "./components/AOSProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,8 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className}`}>
+      <body className={inter.className}>
         <Providers>
+          <AOSProvider />
           <Header />
           <main>{children}</main>
           <Footer />

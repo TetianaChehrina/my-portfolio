@@ -18,6 +18,7 @@ const ProjectCard: React.FC<ProjectProps> = ({ project }) => {
           alt={project.name}
           width={600}
           height={400}
+          //   style={{ width: "100%", height: "auto" }}
           priority
           className={styles.project_image}
         />

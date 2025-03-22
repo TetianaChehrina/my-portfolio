@@ -8,9 +8,11 @@ const imperialScript = Imperial_Script({
 
 const Logo = () => {
   return (
-    <div className={`${styles.logo} ${imperialScript.className}`}>
-      TetianaChehrina
-    </div>
+    <>
+      <a href="#" className={`${styles.logo} ${imperialScript.className}`}>
+        TetianaChehrina
+      </a>
+    </>
   );
 };
 export default Logo;
