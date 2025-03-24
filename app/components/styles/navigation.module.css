@@ -54,6 +54,7 @@
   gap: 15px;
   width: 100%;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .menu_item {
@@ -79,6 +80,11 @@
   color: white;
 }
 
+.active {
+  color: var(--accent-color, #00ffff);
+  font-weight: bold;
+}
+
 @media screen and (min-width: 1440px) {
   .navigation {
     margin: 0 20px;
@@ -95,7 +101,7 @@
     align-items: center;
     justify-content: flex-end;
     max-width: auto;
-    height: auto;
+    height: 100px;
     transform: none;
     background: transparent;
     box-shadow: none;
@@ -111,7 +117,7 @@
 
   .menu_item a {
     display: inline-block;
-    padding: 40px 0;
+    padding: 20px 0;
     font-size: 18px;
     color: white;
     white-space: nowrap;

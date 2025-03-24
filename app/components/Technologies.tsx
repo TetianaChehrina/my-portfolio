@@ -14,7 +14,7 @@ const Technologies = () => {
   return (
     <section id="technologies" className={styles.section} data-aos="fade-up">
       <Container>
-        <h2 className={styles.title}>Technologies I Use</h2>
+        <h2 className={styles.title}>Technologies & Tools I Use</h2>
 
         <div className={styles.slider}>
           <div className={`${styles.track} ${styles.left_to_right}`}>

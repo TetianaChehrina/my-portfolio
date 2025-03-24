@@ -10,62 +10,63 @@ interface ProjectProps {
 }
 
 const ProjectCard: React.FC<ProjectProps> = ({ project }) => {
+  const { image, name, description, webSite, projectRepository, technologies } =
+    project;
+
+  const techList = [
+    ...technologies.frontend.core,
+    ...(technologies.backend?.core || []),
+  ];
+
   return (
     <div className={styles.card}>
       <div className={styles.image_wrapper}>
         <Image
-          src={project.image}
-          alt={project.name}
-          width={600}
+          src={image}
+          alt={name}
+          width={800}
           height={400}
-          //   style={{ width: "100%", height: "auto" }}
+          className={styles.image}
           priority
-          className={styles.project_image}
         />
       </div>
 
-      <div className={styles.info}>
-        <h2 className={styles.project_name}>{project.name}</h2>
-        <p className={styles.description}>{project.description}</p>
+      <div className={styles.content}>
+        <h3 className={styles.title}>{name}</h3>
+        {description && <p className={styles.description}>{description}</p>}
 
-        <div className={styles.technologies}>
-          {[
-            ...project.technologies.frontend.core,
-            ...(project.technologies.backend?.core || []),
-          ].map((tech, index) => (
-            <span key={index} className={styles.tech_item}>
+        <div className={styles.tech}>
+          {techList.map((tech, idx) => (
+            <span key={idx} className={styles.tech_item}>
               {tech}
             </span>
           ))}
         </div>
 
         <div className={styles.links}>
-          <a href={project.webSite} target="_blank" className={styles.link}>
+          <a href={webSite} target="_blank" className={styles.link}>
             <FaExternalLinkAlt /> Live Demo
           </a>
-          {typeof project.projectRepository === "string" ? (
-            <a
-              href={project.projectRepository}
-              target="_blank"
-              className={styles.link}
-            >
+
+          {typeof projectRepository === "string" ? (
+            <a href={projectRepository} target="_blank" className={styles.link}>
               <FaGithub /> GitHub
             </a>
           ) : (
             <>
               <a
-                href={project.projectRepository.frontend}
+                href={projectRepository.frontend}
                 target="_blank"
                 className={styles.link}
               >
-                <FaGithub /> Frontend Repo
+                <FaGithub /> Frontend
               </a>
               <a
-                href={project.projectRepository.backend}
+                href={projectRepository.backend}
                 target="_blank"
                 className={styles.link}
               >
-                <FaGithub /> Backend Repo
+                <FaGithub /> Backend
               </a>
             </>
           )}

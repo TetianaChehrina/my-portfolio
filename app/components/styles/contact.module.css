@@ -1,7 +1,9 @@
 .contact_section {
-  padding: 100px 0px;
+  padding-top: 100px;
+  padding-bottom: 90px;
   text-align: center;
   display: flex;
+  scroll-margin-top: 260px;
 }
 
 .title {
@@ -15,8 +17,53 @@
   color: #00eaff;
 }
 
+.scroll_to_top {
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: var(--accent-color, #00eaff);
+  color: var(--text-color, #000);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 10px rgba(0, 234, 255, 0.4);
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+  z-index: 9999;
+}
+
+.scroll_to_top:hover {
+  transform: translateY(-14px);
+  background-color: #00cce3;
+  box-shadow: 0 6px 16px rgba(0, 234, 255, 0.5);
+}
+
 @media screen and (min-width: 768px) {
   .title {
-    font-size: 36px;
+    font-size: 38px;
+  }
+
+  .scroll_to_top {
+    bottom: 30px;
+    right: 25px;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+  }
+
+  .scroll_to_top:hover {
+    transform: translateY(-6px);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 42px;
   }
 }

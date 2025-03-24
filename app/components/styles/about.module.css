@@ -1,5 +1,5 @@
 .about {
-  padding: 100px 20px;
+  padding: 100px 0px;
   scroll-margin-top: 140px;
   background-color: var(--background-color);
   color: var(--text-color);
@@ -90,12 +90,20 @@
   box-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff;
   text-align: center;
   margin-top: 20px;
-  width: 100%;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .contact_button:hover {
-  background-color: #00c4e2;
+  background-color: #00eaff;
   box-shadow: 0 0 10px #00eaff, 0 0 10px #00eaff;
+}
+
+@media screen and (min-width: 768px) {
+  .title_about {
+    font-size: 38px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -123,12 +131,13 @@
   }
 
   .description {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .contact_button {
     font-size: 18px;
     padding: 14px 28px;
     justify-content: center;
+    margin: 0;
   }
 }

@@ -11,6 +11,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Portfolio | Web Developer",
   description: "My personal portfolio website",
+  icons: {
+    icon: "/portfolio.jpg",
+  },
 };
 
 export default function RootLayout({
@@ -19,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning={true}>
       <body className={inter.className}>
         <Providers>
           <AOSProvider />

@@ -4,7 +4,7 @@ import { Technology } from "../types/technologies";
 export const projects: ProjectType[] = [
   {
     id: 1,
-    image: "/assets/projects/LanguageTutor.png",
+    image: "/assets/projects/languageTutor.png",
     name: "Language Tutor",
     webSite: "https://language-tutor-five.vercel.app/",
     projectRepository: "https://github.com/TetianaChehrina/language-tutor",
@@ -36,7 +36,7 @@ export const projects: ProjectType[] = [
   },
   {
     id: 2,
-    image: "/assets/projects/PhoneBookApp.png",
+    image: "/assets/projects/phoneBook.png",
     name: "Phone book App",
     webSite: "https://phone-book-app-frontend.vercel.app/",
     description:
@@ -85,8 +85,8 @@ export const projects: ProjectType[] = [
   },
   {
     id: 3,
-    image: "/assets/projects/BlogMotoWay.png",
-    name: "Portfolio Website",
+    image: "/assets/projects/blogMotoWay.png",
+    name: "Blog moto way",
     webSite: "https://blog-moto-way.vercel.app/",
     projectRepository: "https://github.com/TetianaChehrina/blog-moto-way",
     description:
@@ -105,15 +105,13 @@ export const projects: ProjectType[] = [
           "React Toastify",
           "Formik",
           "Yup",
-          "@emotion/react",
-          "@emotion/styled",
           "@mui/icons-material",
           "@mui/material",
           "axios",
           "react-hook-form",
           "react-spinners",
         ],
-        tools: ["Vite", "ESLint", "Prettier"],
+        tools: ["Vite"],
       },
       backend: {
         core: ["Node.js", "Express", "MongoDB"],
@@ -129,9 +127,89 @@ export const projects: ProjectType[] = [
           "jsonwebtoken",
           "mongoose",
           "multer",
-          "nodemailer",
         ],
         tools: ["Nodemon", "ESLint"],
+      },
+    },
+  },
+  {
+    id: 4,
+    image: "/assets/projects/weatherApp.png",
+    name: "Weather App",
+    webSite: "https://weather-app-gamma-lovat-58.vercel.app/home",
+    projectRepository: "https://github.com/TetianaChehrina/weather-app",
+    technologies: {
+      frontend: {
+        core: ["HTML", "CSS", "JavaScript", "React"],
+        libraries: [
+          "Axios",
+          "React Router Dom",
+          "Flatpickr",
+          "React toastify",
+          "React Icons",
+          "React-loader-spinner",
+        ],
+        tools: ["Vite"],
+      },
+    },
+  },
+  {
+    id: 5,
+    image: "/assets/projects/moviefind.png",
+    name: "MovieFinder",
+    webSite: "https://movies-find-six.vercel.app/",
+    projectRepository: "https://github.com/TetianaChehrina/moviesFind",
+    technologies: {
+      frontend: {
+        core: ["HTML", "CSS", "JavaScript", "React"],
+        libraries: [
+          "Formik",
+          "React Hot Toast",
+          "React Icons",
+          "React-loader-spinner",
+          "clsx",
+        ],
+        tools: ["Vite"],
+      },
+    },
+  },
+  {
+    id: 6,
+    image: "/assets/projects/travelTruck.png",
+    name: "MovieFinder",
+    webSite: "https://travel-trucks-weld-six.vercel.app/",
+    projectRepository: "https://github.com/TetianaChehrina/travelTrucks",
+    technologies: {
+      frontend: {
+        core: ["HTML", "CSS", "JavaScript", "React"],
+        libraries: [
+          "Formik",
+          "React Hot Toast",
+          "React Icons",
+          "React-loader-spinner",
+          "clsx",
+        ],
+        tools: ["Vite"],
+      },
+    },
+  },
+  {
+    id: 7,
+    image: "/assets/projects/webStudio.png",
+    name: "MovieFinder",
+    webSite: "https://travel-trucks-weld-six.vercel.app/",
+    projectRepository: "https://github.com/TetianaChehrina/travelTrucks",
+    technologies: {
+      frontend: {
+        core: ["HTML", "CSS", "JavaScript", "React"],
+        libraries: [
+          "Formik",
+          "React Hot Toast",
+          "React Icons",
+          "React-loader-spinner",
+          "clsx",
+        ],
+        tools: ["Vite"],
       },
     },
   },
@@ -140,13 +218,12 @@ export const projects: ProjectType[] = [
 export const technologies: Technology[] = [
   { name: "HTML5", icon: "/assets/technologies/HTML5.png" },
   { name: "CSS3", icon: "/assets/technologies/CSS3.png" },
-  { name: "JavaScript", icon: "/assets/technologies/JavaScript.png" },
-  { name: "TypeScript", icon: "/assets/technologies/TypeScript.png" },
+  { name: "JavaScript", icon: "/assets/technologies/JS.png" },
+  { name: "TypeScript", icon: "/assets/technologies/TS.png" },
   { name: "React", icon: "/assets/technologies/React.png" },
   { name: "Redux", icon: "/assets/technologies/Redux.png" },
   { name: "Next.js", icon: "/assets/technologies/next.jpg" },
   { name: "Node.js", icon: "/assets/technologies/Node.js.png" },
-  { name: "Express", icon: "/assets/technologies/Express.png" },
   { name: "Express", icon: "/assets/technologies/expressjs.png" },
   { name: "MongoDB", icon: "/assets/technologies/MongoDB.png" },
   { name: "Postman", icon: "/assets/technologies/Postman.png" },

@@ -39,11 +39,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <form
-        onSubmit={handleSubmit(onSubmit)}
-        className={styles.form}
-        data-aos="zoom-in-up"
-      >
+      <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
         <label className={styles.label}>
           Name
           <input
