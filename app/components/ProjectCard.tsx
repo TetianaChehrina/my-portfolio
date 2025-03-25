@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import styles from "./styles/ProjectCard.module.css";
+import styles from "./styles/projectCard.module.css";
 import { ProjectType } from "../../types/projects";
 import TechTooltipByCategory from "./TechTooltipByCategory";
 

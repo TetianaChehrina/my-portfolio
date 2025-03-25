@@ -2,7 +2,7 @@
 
 import { useForm } from "react-hook-form";
 import { ContactFormData } from "../../types/form";
-import styles from "./styles/ContactForm.module.css";
+import styles from "./styles/contactForm.module.css";
 import toast, { Toaster } from "react-hot-toast";
 
 const ContactForm = () => {

@@ -2,7 +2,7 @@
 
 import { FaGithub, FaWhatsapp, FaTelegramPlane } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
-import styles from "./styles/Footer.module.css";
+import styles from "./styles/footer.module.css";
 import Container from "./Container";
 
 const Footer = () => {
