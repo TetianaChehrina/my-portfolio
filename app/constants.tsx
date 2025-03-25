@@ -4,7 +4,7 @@ import { Technology } from "../types/technologies";
 export const projects: ProjectType[] = [
   {
     id: 1,
-    image: "/assets/projects/languageTutor.png",
+    image: "/assets/projects/language-tutor.png",
     name: "Language Tutor",
     webSite: "https://language-tutor-five.vercel.app/",
     description:
@@ -36,7 +36,7 @@ export const projects: ProjectType[] = [
   },
   {
     id: 2,
-    image: "/assets/projects/phoneBook.png",
+    image: "/assets/projects/phone-book.png",
     name: "Phone Book App",
     webSite: "https://phone-book-app-frontend.vercel.app/",
     description:
@@ -82,7 +82,7 @@ export const projects: ProjectType[] = [
   },
   {
     id: 3,
-    image: "/assets/projects/blogMotoWay.png",
+    image: "/assets/projects/blog-moto-way.png",
     name: "Blog Moto Way",
     webSite: "https://blog-moto-way.vercel.app/",
     projectRepository: "https://github.com/TetianaChehrina/blog-moto-way",
@@ -124,7 +124,7 @@ export const projects: ProjectType[] = [
   },
   {
     id: 4,
-    image: "/assets/projects/weatherApp.png",
+    image: "/assets/projects/weather-app.png",
     name: "Weather App",
     webSite: "https://weather-app-gamma-lovat-58.vercel.app/home",
     description:
@@ -146,7 +146,7 @@ export const projects: ProjectType[] = [
   },
   {
     id: 5,
-    image: "/assets/projects/moviefind.png",
+    image: "/assets/projects/movie-find.png",
     name: "MovieFinder",
     webSite: "https://movies-find-six.vercel.app/",
     projectRepository: "https://github.com/TetianaChehrina/moviesFind",
@@ -166,7 +166,7 @@ export const projects: ProjectType[] = [
   },
   {
     id: 6,
-    image: "/assets/projects/travelTruck.png",
+    image: "/assets/projects/travel-truck.png",
     name: "TravelTruck",
     webSite: "https://travel-trucks-weld-six.vercel.app/",
     projectRepository: "https://github.com/TetianaChehrina/travelTrucks",
@@ -190,7 +190,7 @@ export const projects: ProjectType[] = [
   },
   {
     id: 7,
-    image: "/assets/projects/webStudio.png",
+    image: "/assets/projects/web-studio.png",
     name: "WebStudio",
     webSite: "https://tetianachehrina.github.io/webStudio/",
     projectRepository: "https://github.com/TetianaChehrina/webStudio",
