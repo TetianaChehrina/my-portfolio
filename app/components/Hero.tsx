@@ -26,7 +26,7 @@ const Hero = () => {
 
           <div className={styles.text_content}>
             <h1 className={styles.hero_title}>
-              Hi, I'm Tetiana <span className={styles.name}>Chehrina</span>
+              Hi, I&apos;m Tetiana <span className={styles.name}>Chehrina</span>
             </h1>
             <p className={styles.hero_text}>
               a Web Developer with experience in modern web technologies,

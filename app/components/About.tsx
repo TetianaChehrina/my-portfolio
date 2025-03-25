@@ -28,8 +28,8 @@ const About = () => {
 
           <div className={styles.text_block}>
             <p className={styles.description}>
-              <span>Who I am?</span> I'm a web developer who enjoys building
-              interactive and responsive web applications.
+              <span>Who I am?</span> I&apos;m a web developer who enjoys
+              building interactive and responsive web applications.
             </p>
             <p className={styles.description}>
               I have hands-on experience with <strong>HTML</strong>,
