@@ -5,7 +5,7 @@
   width: 120px;
   height: 44px;
   border-radius: 22px;
-  border: 2px solid #ccc;
+  border: 5px solid #00ffff;
   cursor: pointer;
   padding: 5px;
   font-size: 14px;
@@ -27,8 +27,8 @@
 }
 
 .icon_container {
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
   background: white;
   border-radius: 50%;
   display: flex;

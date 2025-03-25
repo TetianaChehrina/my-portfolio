@@ -1,0 +1,97 @@
+.tooltip_box {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  max-width: 90vw;
+  box-shadow: 0 4px 20px rgba(0, 255, 255, 0.2);
+  z-index: 50;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.tooltip_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.tooltip_col {
+  display: flex;
+  flex-direction: column;
+  min-width: 120px;
+}
+
+.tooltip_category {
+  font-weight: 600;
+  color: #00ffff;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+.tooltip_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tooltip_item {
+  font-size: 12px;
+  color: #ccc;
+  margin-bottom: 3px;
+}
+.tech_item {
+  background-color: rgba(47, 117, 117, 0.3);
+  padding: 6px 12px;
+  border: 1px solid rgba(0, 255, 255, 0.4);
+  border-radius: 15px;
+  font-size: 14px;
+  color: #00ffff;
+  cursor: help;
+  transition: transform 0.2s ease, background-color 0.2s ease,
+    border-color 0.2s ease;
+  display: inline-block;
+}
+
+.tech_item:hover {
+  transform: scale(1.05);
+  background-color: rgba(0, 255, 255, 0.2);
+  border-color: rgba(0, 255, 255, 0.6);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 768px) {
+  .tooltip_box {
+    font-size: 14px;
+    padding: 16px;
+  }
+
+  .tooltip_category {
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+
+  .tooltip_item {
+    font-size: 13px;
+  }
+
+  .tooltip_col {
+    min-width: 140px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .tooltip_box {
+    max-width: 400px;
+  }
+}

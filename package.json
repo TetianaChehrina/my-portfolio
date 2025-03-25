@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-tooltip": "^1.1.8",
     "aos": "^2.3.4",
     "lucide-react": "^0.482.0",
     "modern-normalize": "^3.0.1",

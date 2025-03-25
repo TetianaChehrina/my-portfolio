@@ -1,8 +1,11 @@
-export interface Technologies {
+export type StackCategory = {
   core: string[];
   libraries?: string[];
   tools?: string[];
-}
+  utilities?: string[];
+  security?: string[];
+  cloud?: string[];
+};
 
 export interface ProjectRepository {
   frontend?: string;
@@ -17,7 +20,7 @@ export interface ProjectType {
   description?: string;
   projectRepository: string | ProjectRepository;
   technologies: {
-    frontend: Technologies;
-    backend?: Technologies;
+    frontend: StackCategory;
+    backend?: StackCategory;
   };
 }

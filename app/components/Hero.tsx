@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { FaGithub, FaTelegramPlane } from "react-icons/fa";
+import { FaGithub, FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import Container from "./Container";
 import styles from "./styles/hero.module.css";
@@ -47,6 +47,14 @@ const Hero = () => {
                 className={styles.icon_link}
               >
                 <FaLinkedinIn className={styles.icon} />
+              </a>
+              <a
+                href="https://wa.me/+48536029950"
+                target="_blank"
+                aria-label="WhatsApp"
+                className={styles.icon_link}
+              >
+                <FaWhatsapp className={styles.icon} />
               </a>
               <a
                 href="https://t.me/Tetiana_Chehrina"

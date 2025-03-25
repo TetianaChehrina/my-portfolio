@@ -1,3 +1,4 @@
+"use client";
 import styles from "./styles/logo.module.css";
 import { Imperial_Script } from "next/font/google";
 
