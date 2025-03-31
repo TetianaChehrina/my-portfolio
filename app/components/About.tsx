@@ -32,15 +32,16 @@ const About = () => {
               building interactive and responsive web applications.
             </p>
             <p className={styles.description}>
-              I have hands-on experience with <strong>HTML</strong>,
-              <strong>CSS</strong>, <strong>JavaScript</strong>,
-              <strong>TypeScript</strong>, <strong>React</strong>,
-              <strong>Next.js</strong>, <strong>Redux</strong>,
-              <strong>RESTful APIs</strong>,<strong>Node.js</strong>,
-              <strong>Express</strong>, <strong>MongoDB</strong>,
-              <strong>Cloudinary</strong>, <strong>Postman</strong> and
+              I have hands-on experience with <strong>HTML</strong>,{" "}
+              <strong>CSS</strong>, <strong>JavaScript</strong>,{" "}
+              <strong>TypeScript</strong>, <strong>React</strong>,{" "}
+              <strong>Next.js</strong>, <strong>Redux</strong>,{" "}
+              <strong>RESTful APIs</strong>, <strong>Node.js</strong>,{" "}
+              <strong>Express.js</strong>, <strong>MongoDB</strong>,{" "}
+              <strong>Cloudinary</strong>, <strong>Postman</strong> and{" "}
               <strong>Git</strong>.
             </p>
+
             <p className={styles.description}>
               I value <strong>collaboration</strong>, clear communication, and
               love working in a team to bring creative ideas to life.
