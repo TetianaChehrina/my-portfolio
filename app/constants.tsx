@@ -126,7 +126,7 @@ export const projects: ProjectType[] = [
     id: 4,
     image: "/assets/projects/weather-app.png",
     name: "Weather App",
-    webSite: "https://weather-app-gamma-lovat-58.vercel.app/home",
+    webSite: "https://weather-app-gamma-lovat-58.vercel.app/",
     description:
       "The Weather App is a user-friendly weather application. Users can search weather details in any city, view hourly forecasts, and check a 5-day weather prediction. Additionally, users can manage their favorite cities list and explore a beautiful dynamic background powered by Unsplash, which updates based on the selected city.",
     projectRepository: "https://github.com/TetianaChehrina/weather-app",
